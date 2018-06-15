@@ -1,0 +1,32 @@
+
+package pkg3.inputproject;
+
+import java.util.Scanner;
+
+public class InputProject {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) 
+    {
+         
+        Scanner Input=new Scanner(System.in);
+        
+        
+        String nama;
+            int umur;
+
+            System.out.println("What is your name ? : ");
+            nama = Input.next();
+
+            System.out.println("How is your age ? : ");
+            umur = Input.nextInt();
+
+             System.out.println("Your name is : " + nama);
+             System.out.println("Your age is : " + umur);
+
+            
+    }
+    
+}
